@@ -30,7 +30,9 @@ sklearn
 ## Usage
 place `test.mp4`, `train.mp4`, and `train.txt` inside of the `data` folder and run the script with ./speed_estimator.py
 
-for test.mp4 this program achieves a mse of 4.157566952137437
+for train.mp4 this program achieves a mse of 4.157566952137437
+
+update: for test.mp4 this program achieved a mse of 14
 
 ## How it works
 1) get a 2D perspective (birds-eye view) to compensate for perspective projection / radial expansion from FoE
